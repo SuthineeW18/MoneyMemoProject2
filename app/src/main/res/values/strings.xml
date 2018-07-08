@@ -1,0 +1,35 @@
+<resources>
+
+    <string name="app_name">MoneyMemo</string>
+    <string name="lostpass"> Forget password ? <a href="mailto:support@cleverfinger.com.au?Subject=Lost%20Password" target="_top"></a></string>
+    <string name="title_activity_home">HomeActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_report">ReportActivity</string>
+
+    <string name="Home">Home</string>
+    <string name="Income">Income</string>
+    <string name="Expense">Expense</string>
+    <string name="Income_cate">Income Category</string>
+    <string name="exp_cate">Expense Category</string>
+    <string name="exp_edit">Edit Expense Category</string>
+    <string name="income_edit">Edit Income Category</string>
+    <string name="chang_pass">Change Password</string>
+    <string name="chang_mail">Change Email</string>
+    <string name="income_report">Income Report</string>
+    <string name="exp_report">Expense Report</string>
+    <string name="edit_exp">Edit Expense</string>
+    <string name="edit_income">Edit Income</string>
+    <string name="setting">Setting</string>
+    <string name="report">Report</string>
+
+
+    <string-array name="size_entries">
+        <item>Select month and year</item>
+
+    </string-array>
+    <string name="title_activity_main2">Main2Activity</string>
+</resources>

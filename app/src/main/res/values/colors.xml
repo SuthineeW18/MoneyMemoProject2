@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffbbbb</color>
+    <color name="colorPrimaryDark">#ed3569</color>
+    <color name="colorAccent">#434343</color>
+    <color name="textColorPrimary">#000000</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#000000</color>
+
+    <color name="black">#000000</color>
+    <color name="jet">#222222</color>
+    <color name="oil">#333333</color>
+    <color name="monsoon">#777777</color>
+    <color name="jumbo">#959595</color>
+    <color name="aluminum">#dadada</color>
+    <color name="base">#ececec</color>
+    <color name="iron">#f9f4f4f4</color>
+    <color name="trans">#fff1ef</color>
+    <color name="trans2">#ffb5b5</color>
+    <color name="white">#ffffff</color>
+    <color name="whitetrn">#b5ffffff</color>
+
+    <color name="colorPrimaryLight">#ff1455</color>
+    <color name="colorButton">#ff9a9c</color>
+    <color name="Brown">#ffe48c</color>
+    <color name="tab">#ffd2d1</color>
+    <color name="ocean">#50bfff</color>
+    <color name="tab2">#ffc5c5</color>
+    <color name="light_yellow">#e8ffda56</color>
+    <color name="yellow">#ffdcd6</color>
+    <color name="redpastel">#f1072e</color>
+    <color name="rpastel">#ff8690</color>
+    <color name="Lght_grey">#f6f4f4</color>
+    <color name="pinkbaby">#fff1ef</color>
+    <color name="yellow2">#f5cd2e</color>
+    <color name="redt">#ff5f5f</color>
+    <color name="pink">#7cffa3af</color>
+    <color name="pink2">#ebffe9e9</color>
+    <color name="whitepas">#fffafa</color>
+
+</resources>

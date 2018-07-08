@@ -1,0 +1,138 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Lght_grey"
+    android:orientation="vertical">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@color/white"
+        android:paddingEnd="10dp"
+        android:paddingRight="10dp">
+
+        <Button
+            android:id="@+id/bt_editInccate"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/gradient_bg3"
+            android:drawableLeft="@drawable/edit_18"
+            android:gravity="left|center_vertical"
+            android:onClick="onClickNext2"
+            android:paddingLeft="20dp"
+            android:paddingStart="20dp"
+            android:text="     Income  category"
+            android:textColor="@color/colorAccent"
+            android:textSize="12sp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="0.05dp"
+        android:background="@android:color/darker_gray" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:paddingEnd="10dp"
+        android:paddingRight="10dp">
+
+        <Button
+            android:id="@+id/bt_editExpcate"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/gradient_bg3"
+            android:drawableLeft="@drawable/edit_18"
+            android:gravity="left|center_vertical"
+            android:onClick="onClickNext"
+            android:paddingLeft="20dp"
+            android:paddingStart="20dp"
+            android:text="     Expense  category"
+            android:textColor="@color/colorAccent"
+            android:textSize="12sp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@color/white"
+        android:paddingEnd="10dp"
+        android:paddingRight="10dp">
+
+        <Button
+            android:id="@+id/bt_changepass"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/gradient_bg3"
+            android:drawableLeft="@drawable/lock18"
+            android:gravity="left|center_vertical"
+            android:onClick="onClickNext3"
+            android:paddingLeft="20dp"
+            android:paddingStart="20dp"
+            android:scaleX="1.0"
+            android:scaleY="1.0"
+            android:text="    Change  password"
+            android:textColor="@color/colorAccent"
+            android:textSize="12sp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="0.05dp"
+        android:background="@android:color/darker_gray" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:paddingEnd="10dp"
+        android:paddingRight="10dp">
+
+        <Button
+            android:id="@+id/bt_changeemail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/gradient_bg3"
+            android:drawableLeft="@drawable/email_18"
+            android:gravity="left|center_vertical"
+            android:onClick="onClickNext5"
+            android:paddingLeft="20dp"
+            android:paddingStart="20dp"
+            android:scaleX="1.0"
+            android:scaleY="1.0"
+            android:text="    Change  email"
+            android:textColor="@color/colorAccent"
+            android:textSize="12sp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@color/white"
+        android:paddingEnd="10dp"
+        android:paddingRight="10dp">
+
+
+        <Button
+            android:id="@+id/bt_deleteAccount"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:drawableLeft="@drawable/delete_acc"
+            android:gravity="left|center_vertical"
+            android:onClick="onClickNext4"
+            android:paddingLeft="20dp"
+            android:paddingStart="20dp"
+            android:scaleX="1.0"
+            android:scaleY="1.0"
+            android:text="    Delete  account"
+            android:textColor="@color/redpastel"
+            android:textSize="12sp" />
+    </TableRow>
+
+</LinearLayout>

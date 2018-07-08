@@ -1,0 +1,79 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pinkbaby"
+    android:orientation="vertical"
+    android:paddingEnd="60dp"
+    android:paddingLeft="60dp"
+    android:paddingRight="60dp"
+    android:paddingStart="60dp"
+    android:paddingTop="50dp"
+    tools:ignore="MissingPrefix">
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:gravity="left|center_horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Category name "
+                android:textColor="@color/monsoon"
+                android:textSize="14sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:gravity="center_horizontal"
+            android:paddingBottom="40dp"
+            android:paddingTop="5dp">
+
+            <EditText
+                android:id="@+id/txtIncCname"
+                fontPath="Chococooky.ttf"
+                android:layout_width="184dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/gradient_edtext"
+                android:ellipsize="end"
+                android:inputType="textPersonName"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingStart="10dp"
+                android:paddingTop="5dp"
+                android:textColor="@color/colorAccent"
+                android:textSize="16sp" />
+
+        </TableRow>
+
+    </TableLayout>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="20dp">
+
+        <Button
+            android:id="@+id/btnEditIncCate"
+            android:layout_width="94dp"
+            android:layout_height="35dp"
+            android:background="@drawable/gradient_bt"
+            android:text="Edit"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+    </TableRow>
+
+
+</LinearLayout>

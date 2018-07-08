@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="158dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtIncomeDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_alignParentTop="true"
+                android:layout_toLeftOf="@+id/txtIncomeAmount"
+                android:layout_toStartOf="@+id/txtIncomeAmount"
+                android:gravity="start"
+                android:padding="5dp"
+                android:text="122344545"
+                android:textAlignment="textStart"
+                android:textColor="#6e6d6d"
+                android:textSize="12sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/txtIncomeCate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btnEditIncome"
+                android:layout_toEndOf="@+id/btnDeleteIncome"
+                android:layout_toRightOf="@+id/btnDeleteIncome"
+                android:gravity="start"
+                android:padding="5dp"
+                android:text="Others"
+                android:textAlignment="textStart"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/txtIncomeMemo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/txtIncomeDate"
+
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignRight="@+id/txtIncomeDate"
+                android:gravity="start"
+                android:padding="5dp"
+                android:text="dddddfffddsss"
+                android:textAlignment="textStart"
+                android:textColor="#6e6d6d"
+                android:textSize="12sp"
+                android:textStyle="normal" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/txtIncomeAmount"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:gravity="end"
+                    android:padding="5dp"
+                    android:text="2000000"
+                    android:textAlignment="textEnd"
+                    android:textColor="#65d000"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:paddingTop="25dp">
+
+                <Button
+                    android:id="@+id/btnEditIncome"
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:layout_below="@+id/txtIncomeAmount"
+                    android:layout_toLeftOf="@+id/btnDeleteIncome"
+                    android:layout_toStartOf="@+id/btnDeleteIncome"
+                    android:background="@drawable/gradient_btedit" />
+
+                <Button
+                    android:id="@+id/btnDeleteIncome"
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/txtIncomeAmount"
+                    android:background="@drawable/gradient_btdel" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </TableRow>
+</LinearLayout>

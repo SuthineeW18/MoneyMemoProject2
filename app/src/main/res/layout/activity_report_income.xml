@@ -1,0 +1,134 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/scrollView"
+    android:fillViewport="true"
+    android:gravity="top"
+    tools:context="com.moneymemo.adminpc.moneymemo.ReportIncomeActivity"
+    >
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/gradient_bg2"
+                android:gravity="center_vertical"
+                android:paddingBottom="10dp"
+                android:paddingEnd="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingStart="5dp"
+                android:paddingTop="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="เดือน"
+                    android:textAlignment="textEnd"
+                    android:textColor="@color/rpastel"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    tools:ignore="RtlCompat" />
+
+                <Spinner
+                    android:id="@+id/sp_month"
+                    android:layout_width="108dp"
+                    android:layout_height="28dp"
+                    android:layout_weight="2"
+                    android:background="@drawable/gradient_sp"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="10dp"
+                    android:paddingStart="10dp"
+                    android:paddingTop="5dp"
+                    android:popupBackground="@drawable/gradient_bgsp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="ปี"
+                    android:textAlignment="textEnd"
+                    android:textColor="@color/rpastel"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    tools:ignore="RtlCompat" />
+
+                <Spinner
+                    android:id="@+id/sp_year"
+                    android:layout_width="100dp"
+                    android:layout_height="28dp"
+                    android:layout_weight="4"
+                    android:background="@drawable/gradient_sp"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="10dp"
+                    android:paddingStart="10dp"
+                    android:paddingTop="5dp"
+                    android:popupBackground="@drawable/gradient_bgsp"
+                    />
+
+                <Button
+                    android:id="@+id/bt_show"
+                    android:layout_width="50dp"
+                    android:layout_height="28dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="5"
+                    android:background="@drawable/gradient_bt"
+                    android:text="Show"
+                    android:textColor="@android:color/white"
+                    android:textSize="10sp"
+                    android:textStyle="normal|bold" />
+
+
+            </TableRow>
+
+
+        </TableLayout>
+
+
+        <com.github.mikephil.charting.charts.PieChart
+            android:id="@+id/pie_chart"
+            android:layout_width="280dp"
+            android:layout_height="280dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp"
+            android:background="@android:color/background_light" />
+
+        <ListView
+            android:id="@+id/listIncomeReport"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/pinkbaby"
+            android:padding="10dp"
+            android:tooltipText="18"></ListView>
+
+
+    </LinearLayout>
+
+</ScrollView>

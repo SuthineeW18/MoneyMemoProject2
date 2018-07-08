@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Lght_grey"
+    android:orientation="vertical">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:paddingEnd="10dp"
+        android:paddingRight="10dp">
+
+        <Button
+            android:id="@+id/bt_IncReport"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/gradient_bg3"
+            android:drawableLeft="@drawable/chart1"
+            android:gravity="left|center_vertical"
+            android:onClick="onClickNext"
+            android:paddingLeft="20dp"
+            android:paddingStart="20dp"
+            android:text="    Income  report"
+            android:textColor="@color/colorAccent"
+            android:textSize="12sp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="0.05dp"
+        android:background="@android:color/darker_gray" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:paddingEnd="10dp"
+        android:paddingRight="10dp"
+       >
+
+        <Button
+            android:id="@+id/bt_ExpReport"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/gradient_bg3"
+            android:drawableLeft="@drawable/chart1"
+            android:gravity="left|center_vertical"
+            android:onClick="onClickNext2"
+            android:paddingLeft="20dp"
+            android:paddingStart="20dp"
+            android:text="    Expense  report"
+            android:textColor="@color/colorAccent"
+            android:textSize="12sp" />
+    </TableRow>
+
+
+
+</LinearLayout>

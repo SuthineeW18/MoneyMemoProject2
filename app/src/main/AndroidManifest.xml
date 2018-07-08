@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.moneymemo.adminpc.moneymemo">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_foreground"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".ExpensecateActivity"
+            android:layout_gravity="center"
+            android:label="Expense category"
+            android:parentActivityName=".SettingActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".SettingActivity" />
+        </activity>
+        <activity
+            android:name=".EditExpensecateActivity"
+            android:layout_gravity="center"
+            android:label="Edit expense category"
+            android:parentActivityName=".ExpensecateActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ExpensecateActivity" />
+        </activity>
+        <activity
+            android:name=".IncomecateActivity"
+            android:layout_gravity="center"
+            android:label="Income category"
+            android:parentActivityName=".SettingActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".SettingActivity" />
+        </activity>
+        <activity
+            android:name=".EditIncomecateActivity"
+            android:layout_gravity="center"
+            android:label="Edit income category"
+            android:parentActivityName=".IncomecateActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".IncomecateActivity" />
+        </activity>
+        <activity
+            android:name=".SettingActivity"
+            android:layout_gravity="center"
+            android:label="Setting"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".ExpenseActivity"
+            android:layout_gravity="center"
+            android:label="Expense"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".EditExpenseActivity"
+            android:layout_gravity="center"
+            android:label="Edit expense"
+            android:parentActivityName=".ExpenseActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ExpenseActivity" />
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="Home"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".IncomeActivity"
+            android:layout_gravity="center"
+            android:label="Income"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:layout_gravity="center"
+            android:theme="@style/NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AddNewAccountActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name=".EditIncomeActivity"
+            android:label="Edit income"
+            android:parentActivityName=".IncomeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".IncomeActivity" />
+        </activity>
+        <activity
+            android:name=".ReportActivity"
+            android:label="Expense report"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".ChangePassActivity"
+            android:label="Change password"
+            android:parentActivityName=".SettingActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".SettingActivity" />
+        </activity>
+        <activity
+            android:name=".ReportIncomeActivity"
+            android:label="Income report"
+            android:parentActivityName=".OptionReportActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".OptionReportActivity" />
+        </activity>
+        <activity
+            android:name=".OptionReportActivity"
+            android:label="Report"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".ForecastActivity"
+            android:label="Forecast"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".ForgetPassword"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name=".ResetPassword"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name=".ChangeEmail"
+            android:label="Change Email"
+            android:parentActivityName=".SettingActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".SettingActivity" />
+        </activity>
+
+    </application>
+
+</manifest>

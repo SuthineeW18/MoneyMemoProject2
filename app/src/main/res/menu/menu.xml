@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+
+
+    >
+    <item
+        android:id="@+id/iconHamburger"
+        android:icon="@drawable/ic_menu_white_24dp"
+        android:title="other"
+        app:showAsAction="ifRoom|withText">
+
+        <menu>
+
+            <item
+                android:id="@+id/Home"
+                android:icon="@drawable/ic_home_black_18dp"
+                android:title="Home" />
+
+            <item
+                android:id="@+id/Income"
+                android:icon="@drawable/ic_attach_money_black_18dp"
+                android:title="Income" />
+
+            <item
+                android:id="@+id/Expense"
+                android:icon="@drawable/ic_money_off_black_18dp"
+                android:title="Expense" />
+
+            <item
+                android:id="@+id/Report"
+                android:icon="@drawable/ic_pie_chart_black_24dp"
+                android:title="Report" />
+            <item
+                android:id="@+id/Forecast"
+                android:icon="@drawable/ic_show_chart_black_18dp"
+                android:title="Forecast" />
+
+            <item
+                android:id="@+id/Setting"
+                android:icon="@drawable/ic_settings_black_18dp"
+                android:title="Setting" />
+            <item
+                android:id="@+id/Logout"
+                android:icon="@drawable/ic_exit_to_app_black_18dp"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>
+
+
+
+
+

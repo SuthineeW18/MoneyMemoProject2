@@ -1,0 +1,167 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    android:backgroundTint="@color/trans"
+    android:orientation="vertical"
+    android:paddingEnd="34dp"
+    android:paddingLeft="34dp"
+    android:paddingRight="34dp"
+    android:paddingStart="34dp"
+    tools:ignore="MissingPrefix">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:paddingTop="50dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_weight="1"
+                android:text="Category"
+                android:textColor="@color/monsoon"
+                android:textSize="14sp" />
+
+            <Spinner
+                android:id="@+id/sp_incomecate"
+                android:layout_width="182dp"
+                android:layout_height="32dp"
+                android:layout_weight="2"
+                android:background="@drawable/gradient_sp"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingStart="10dp"
+                android:paddingTop="5dp"
+                android:popupBackground="@drawable/gradient_bgsp"
+                android:textSize="14sp" />
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingBottom="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Amount"
+                android:textColor="@color/monsoon"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/income_amount"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:background="@drawable/gradient_edtext"
+                android:ellipsize="end"
+                android:inputType="numberDecimal"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingStart="10dp"
+                android:paddingTop="5dp"
+                android:textColor="@color/colorAccent"
+                android:textSize="14sp" />
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingBottom="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_weight="1"
+                android:text="Date"
+                android:textColor="@color/monsoon"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/income_date"
+                android:layout_width="200dp"
+                android:layout_height="32dp"
+                android:layout_weight="2"
+                android:background="@drawable/gradient_etdate"
+                android:hint="Select Date"
+                android:inputType="textPersonName"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingStart="10dp"
+                android:paddingTop="5dp"
+                android:textColor="@color/colorAccent"
+                android:textSize="14sp" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingBottom="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Memo"
+                android:textColor="@color/monsoon"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/income_memo"
+                fontPath="Chococooky.ttf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:background="@drawable/gradient_edtext"
+                android:ellipsize="end"
+                android:inputType="textMultiLine"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingStart="10dp"
+                android:paddingTop="5dp"
+                android:textColor="@color/colorAccent"
+                android:textSize="14sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:paddingTop="40dp">
+
+            <Button
+                android:id="@+id/bt_editIncome"
+                android:layout_width="94dp"
+                android:layout_height="35dp"
+                android:background="@drawable/gradient_bt"
+                android:gravity="center_vertical|center"
+                android:text="Edit"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+    </TableLayout>
+</LinearLayout>
