@@ -543,7 +543,7 @@ public class ForecastActivity extends AppCompatActivity {
 
             tvForecast.setTypeface(Typeface.createFromAsset(getAssets(), "font/Chococooky.ttf"));
             tvForecast.setText("" + st_forecast);
-            tvForecast.setTextSize(10);
+            tvForecast.setTextSize(11);
             //  tvForecast.setTextColor(Color.rgb(255,20,85));
 
 

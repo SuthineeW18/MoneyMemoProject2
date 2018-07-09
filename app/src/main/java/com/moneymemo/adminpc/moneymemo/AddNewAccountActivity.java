@@ -95,7 +95,7 @@ public class AddNewAccountActivity extends AppCompatActivity implements View.OnC
             return;
 
         }
-        if(rows == 0){
+        else{
 
             dbHelper.insertIncomeCate(username);
             dbHelper.insertExpenseCate(username);
